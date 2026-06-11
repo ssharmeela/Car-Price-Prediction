@@ -22,10 +22,20 @@ Random Forest Regressor
 - RMSE
 - R2 Score
 
-## Results
-The model achieved good accuracy in predicting car prices.
+## Results and Insights
 
-## Future Improvements
-- Hyperparameter Tuning
-- XGBoost
-- Streamlit Web App
+The Random Forest Regressor model was trained using the CarDekho dataset to predict used car prices.
+
+### Key Findings
+
+* Car age has a significant impact on selling price.
+* Cars with fewer kilometers driven tend to have higher resale value.
+* Present price is one of the most influential features.
+* Fuel type and transmission also affect the selling price.
+
+### Future Enhancements
+
+* Perform hyperparameter tuning for better accuracy.
+* Compare multiple algorithms such as Linear Regression and XGBoost.
+* Deploy the model as a web application using Streamlit.
+
